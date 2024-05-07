@@ -24,7 +24,7 @@ parser.add_argument(
 
 def main(args):
     logger = logs.get_logger("news")
-    if os.path.exists(args.index_path):
+    if os.path.exists(args.index_path) and not args.overwrite:
         logger.error(f"Page Index already exists at {args.index_path}, aborting.")
         return
     logger.info(f"Building page index from {args.url}")
