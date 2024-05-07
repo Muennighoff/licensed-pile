@@ -33,7 +33,6 @@ parser.add_argument(
 parser.add_argument(
     "--limit",
     type=int,
-    default=10,
     help="Set number of pages",
 )
 parser.add_argument(
