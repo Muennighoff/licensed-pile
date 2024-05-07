@@ -18,7 +18,6 @@ python build_index.py --url http://scidev.net/ --index_path data/pages/scidev/pa
 python build_index.py --url https://sojoexchange.solutionsjournalism.org/ --index_path data/pages/solutionsjournalism/pagelist.jsonl
 python build_index.py --url https://www.tasnimnews.com/en --index_path data/pages/tasnimnews/pagelist.jsonl
 python build_index.py --url https://zimfact.org/ --index_path data/pages/zimfact/pagelist.jsonl
-# python build_index.py --url https://projectmultatuli.org/en/ --index_path data/pages/projectmultatuli/
 
 # CC BY-SA
 python build_index.py --url https://educeleb.com/ --index_path data/pages/educeleb/pagelist.jsonl

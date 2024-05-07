@@ -28,6 +28,3 @@ python download_pages.py --index_path data/pages/thepublicrecord/pagelist.jsonl
 
 # Public Domain
 python download_pages.py --index_path data/pages/caravanserai/pagelist.jsonl
-
-# CC NC ND
-# python news/get_text.py --license CC NC ND --input_dir data/pages/projectmultatuli/pagelist.jsonl

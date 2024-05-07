@@ -28,6 +28,3 @@ python parse_pages.py --license CC-BY-SA --index_path data/pages/thepublicrecord
 
 # Public Domain
 python parse_pages.py --license "Public Domain" --index_path data/pages/caravanserai/pagelist.jsonl --source_name caravanserai --output_dir data/news/v0/documents --tag div --attrs '{"class": "article__content"}'
-
-# CC NC ND
-# python news/get_text.py --license CC-NC-ND --index_path data/pages/projectmultatuli/pagelist.jsonl --source_name projectmultatuli --output_dir data/news/v0/documents --tag div --attrs '{"class": "elementor-widget-container"}'
