@@ -38,7 +38,7 @@ def main(args):
     logger.info(f"Saving page index to {args.index_path}")
     os.makedirs(os.path.dirname(args.index_path), exist_ok=True)
     with open(args.index_path, "w") as wf:
-        wf.write("\n".join(json.dumps(p) for p in page_index))
+        wf.write("\n".join(json.dumps(p) for p in page_index) + "\n")
 
 
 if __name__ == "__main__":
